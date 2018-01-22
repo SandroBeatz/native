@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta property="og:image" content="path/to/image.jpg">
+        <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <title>Главная</title>
+        <link rel="stylesheet" type="text/css" href="css/libs.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <!--Fonts-->
+        <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div class="load-inner">
+            <div class="showbox">
+                <div class="loader">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+                    </svg>
+                    <span class="logo"><img src="img/logo-scroll.png" alt="logo"></span>
+                </div>
+            </div>
+        </div>
+        <!-- Loader end -->
+        <!--start buttons Fixed-->
+        <div id="fixedBTN" class="block-btn-fixed">
+            <a href="#header" class="btn-up anchor">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 20 20">
+                    <path fill="#fff" d="M9.146 0.646l-6 6c-0.195 0.195-0.195 0.512 0 0.707s0.512 0.195 0.707 0l5.146-5.146v16.293c0 0.276 0.224 0.5 0.5 0.5s0.5-0.224 0.5-0.5v-16.293l5.146 5.146c0.195 0.195 0.512 0.195 0.707 0 0.098-0.098 0.146-0.226 0.146-0.354s-0.049-0.256-0.146-0.354l-6-6c-0.195-0.195-0.512-0.195-0.707 0z"></path>
+                </svg>
+            </a>
+            <a href="#" class="btn-order" data-toggle="modal" data-target="#modalOrder">
+                <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 480.56 480.56" style="enable-background:new 0 0 480.56 480.56;" xml:space="preserve" width="30px" height="30px">
+                        <g>
+                            <g>
+                                <path d="M365.354,317.9c-15.7-15.5-35.3-15.5-50.9,0c-11.9,11.8-23.8,23.6-35.5,35.6c-3.2,3.3-5.9,4-9.8,1.8    c-7.7-4.2-15.9-7.6-23.3-12.2c-34.5-21.7-63.4-49.6-89-81c-12.7-15.6-24-32.3-31.9-51.1c-1.6-3.8-1.3-6.3,1.8-9.4    c11.9-11.5,23.5-23.3,35.2-35.1c16.3-16.4,16.3-35.6-0.1-52.1c-9.3-9.4-18.6-18.6-27.9-28c-9.6-9.6-19.1-19.3-28.8-28.8    c-15.7-15.3-35.3-15.3-50.9,0.1c-12,11.8-23.5,23.9-35.7,35.5c-11.3,10.7-17,23.8-18.2,39.1c-1.9,24.9,4.2,48.4,12.8,71.3    c17.6,47.4,44.4,89.5,76.9,128.1c43.9,52.2,96.3,93.5,157.6,123.3c27.6,13.4,56.2,23.7,87.3,25.4c21.4,1.2,40-4.2,54.9-20.9    c10.2-11.4,21.7-21.8,32.5-32.7c16-16.2,16.1-35.8,0.2-51.8C403.554,355.9,384.454,336.9,365.354,317.9z" fill="#fff"/>
+                                <path d="M346.254,238.2l36.9-6.3c-5.8-33.9-21.8-64.6-46.1-89c-25.7-25.7-58.2-41.9-94-46.9l-5.2,37.1    c27.7,3.9,52.9,16.4,72.8,36.3C329.454,188.2,341.754,212,346.254,238.2z" fill="#fff"/>
+                                <path d="M403.954,77.8c-42.6-42.6-96.5-69.5-156-77.8l-5.2,37.1c51.4,7.2,98,30.5,134.8,67.2c34.9,34.9,57.8,79,66.1,127.5    l36.9-6.3C470.854,169.3,444.354,118.3,403.954,77.8z" fill="#fff"/>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <!--end buttons Fixed-->
+        <!--start modal-->
+        <div class="modal fade" id="modalOrder" tabindex="5" role="dialog"  aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 20 20">
+                                <path fill="#ffffff" d="M10.707 10.5l5.646-5.646c0.195-0.195 0.195-0.512 0-0.707s-0.512-0.195-0.707 0l-5.646 5.646-5.646-5.646c-0.195-0.195-0.512-0.195-0.707 0s-0.195 0.512 0 0.707l5.646 5.646-5.646 5.646c-0.195 0.195-0.195 0.512 0 0.707 0.098 0.098 0.226 0.146 0.354 0.146s0.256-0.049 0.354-0.146l5.646-5.646 5.646 5.646c0.098 0.098 0.226 0.146 0.354 0.146s0.256-0.049 0.354-0.146c0.195-0.195 0.195-0.512 0-0.707l-5.646-5.646z"></path>
+                            </svg>
+                        </button>
+                        <div class="textCenter">
+                            <h2 class="yellow">Заполните поля</h2>
+                        </div>
+                        <div class="block-form">
+                            <form action="">
+                                <div class="group">
+                                    <i class="icon"><img src="img/svg/user-form.svg" alt=""></i>
+                                    <input type="text" name="name" placeholder="Ваше имя">
+                                </div>
+                                <div class="group">
+                                    <i class="icon"><img src="img/svg/phone-form.svg" alt=""></i>
+                                    <input type="tel" name="name" placeholder="Телефон">
+                                </div>
+                                <div class="textCenter">
+                                    <div class="goup-btn">
+                                        <button type="submit" class="btn-main">Оставить заявку</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <span class="logo"><img src="img/logo-scroll.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end modal-->
+
+        <!--Wrapper-->
+        <div id="header" class="wrapper">
+            <div id="parallax" class="parallax">
+                <!--start Header-->
+                <header>
+                    <div class="top-bar">
+                        <div class="container">
+                            <!--nav.header-menu-->
+                            <nav class="header-menu navbar">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar line1"></span>
+                                        <span class="icon-bar line2"></span>
+                                        <span class="icon-bar line3"></span>
+                                    </button>
+                                    <div class="box-contacts">
+                                        <address><i class="fas fa-map-marker-alt"></i>ул. Советская 93</address>
+                                        <a href="#" class="phone"><i class="fas fa-phone"></i>+ (996) 550 411 555</a>
+                                    </div>
+                                </div>
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav">
+                                        <li class="active"><a href="#">О нас</a></li>
+                                        <li><a href="#">Доставка и Оплата</a></li>
+                                        <li><a href="#">Отзывы</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </div><!--.nav-collapse -->
+                            </nav>
+                            <!--nav.header-menu end-->
+                        </div>
+                    </div>
+                    <div class="center-header">
+                        <div class="container">
+                            <div class="row flexBox">
+                                <div class="block-logo col-md-3">
+                                    <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                                </div>
+                                <div class="block-search col-md-6">
+                                    <div class="search">
+                                        <button class="btn-open-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        <form action="" class="formSearch">
+                                            <div class="formGroup">
+                                                <input id="autocomplete" type="search" name="search" placeholder="Поиск товара">
+                                                <button type="submit" class="btnSearch"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="block-btn-basket col-md-3">
+                                    <a href="#" class="btn-basket">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve" width="30px" height="30px">
+                                                <g>
+                                                    <g>
+                                                        <path class="color1" d="M510.354,111.029c-1.275-1.592-3.145-2.597-5.176-2.781L91.096,70.665c-0.232-5.7-2.493-11.333-6.835-15.675L40.172,10.9    c-4.444-4.444-10.354-6.893-16.64-6.893c-6.286,0-12.195,2.449-16.639,6.893C2.448,15.345,0,21.255,0,27.541    s2.448,12.195,6.893,16.64l44.089,44.088c4.444,4.445,10.354,6.893,16.64,6.893c2.365,0,4.677-0.347,6.878-1.016l62.687,207.577    c5.105,16.904,20.392,28.13,37.79,28.13c0.984,0,1.977-0.036,2.973-0.109L461.443,309c14.865-1.087,27.053-12.604,28.981-27.384    l21.512-164.928C512.201,114.665,511.629,112.622,510.354,111.029z M73.654,77.662c-1.612,1.611-3.754,2.499-6.033,2.499    c-2.279,0-4.421-0.887-6.033-2.499L17.499,33.573C15.887,31.962,15,29.819,15,27.541c0-2.278,0.887-4.422,2.499-6.034    c1.612-1.611,3.754-2.499,6.033-2.499s4.421,0.888,6.033,2.499l44.089,44.089C76.981,68.923,76.981,74.336,73.654,77.662z     M258.275,100.9l3.382,54.872l-70.111-2.554L180.483,93.84L258.275,100.9z M87.528,85.402l77.435,7.029l11.221,60.228    l-69.106-2.518L87.528,85.402z M133.115,236.355l-21.453-71.037L179,167.771l12.536,67.286L133.115,236.355z M176.854,314.783    c-11.56,0.843-21.959-6.309-25.308-17.397l-13.93-46.127l56.704-1.26l11.673,62.653L176.854,314.783z M194.362,168.331    l68.222,2.485l3.857,62.576l-59.71,1.327L194.362,168.331z M221.045,311.55l-11.531-61.889l57.849-1.286l3.668,59.517    L221.045,311.55z M339.04,302.916l-53.047,3.881l-3.621-58.756l58.163-1.292L339.04,302.916z M340.935,231.737l-59.486,1.322    l-3.802-61.694l64.832,2.361L340.935,231.737z M342.878,158.73l-66.159-2.41l-3.331-54.048l70.821,6.428L342.878,158.73z     M411.194,297.636l-57.119,4.18l1.475-55.4l59.873-1.331L411.194,297.636z M416.632,230.055l-60.683,1.348l1.521-57.131    l63.465,2.312L416.632,230.055z M422.139,161.618l-64.27-2.341l1.31-49.218l66.622,6.047L422.139,161.618z M475.55,279.676    c-1.01,7.752-7.404,13.793-15.201,14.364l-34.017,2.489l4.166-51.779l49.752-1.106L475.55,279.676z M482.213,228.597    l-50.505,1.123l4.232-52.589l52.736,1.921L482.213,228.597z M490.624,164.112l-53.481-1.948l3.597-44.703l55.314,5.021    L490.624,164.112z" />
+                                                    </g>
+                                                </g>
+                                                <g>
+                                                    <g>
+                                                        <path class="color2" d="M439.855,445.804v-17.973h16.548v0c4.142,0,7.5-3.358,7.5-7.5c0-4.142-3.358-7.5-7.5-7.5H144.04    c-2.919,0-5.516-1.398-7.123-3.835c-1.607-2.438-1.87-5.374-0.72-8.058l21.185-49.432c1.632-3.807-0.132-8.216-3.939-9.848    c-3.807-1.632-8.216,0.131-9.848,3.939l-21.185,49.431c-3.125,7.293-2.383,15.601,1.984,22.225    c4.367,6.623,11.711,10.578,19.646,10.578h8.267v17.973c-13.786,3.375-24.048,15.829-24.048,30.64    c0,17.396,14.152,31.549,31.548,31.549s31.548-14.153,31.548-31.549c0-14.811-10.262-27.265-24.048-30.64v-17.973h257.548v17.973    c-13.786,3.375-24.048,15.829-24.048,30.64c0,17.396,14.152,31.549,31.548,31.549s31.548-14.153,31.548-31.549    C463.903,461.633,453.641,449.179,439.855,445.804z M176.355,476.443c0,9.125-7.423,16.549-16.548,16.549    s-16.548-7.424-16.548-16.549s7.423-16.548,16.548-16.548S176.355,467.319,176.355,476.443z M432.355,492.992    c-9.125,0-16.548-7.424-16.548-16.549s7.423-16.548,16.548-16.548s16.548,7.424,16.548,16.548    C448.903,485.568,441.48,492.992,432.355,492.992z"/>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                        <span class="text">Корзина<br> пуста</span>
+                                    </a>
+                                    <a href="#" class="btn-main btn-login"><span>Вход / Регистрация</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-header">
+                        <div class="container">
+                            <button class="btn-open-catalogMobi hidden-lg hidden-md">Каталог</button>
+                            <div class="box-catalog-navbar">
+                                <button class="btn-closed-catalogMobi hidden-lg hidden-md"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                <ul class="catalog-navbar">
+                                    <li class="dropdown">
+                                        <a href="#" class="btnProducts">Бытовая химия</a>
+                                        <a href="#" class="arrow-dropdown hidden-lg hidden-md" data-toggle="dropdown" data-delay="100">
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-img"></div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="btnProducts">Гигиена</a>
+                                        <a href="#" class="arrow-dropdown hidden-lg hidden-md" data-toggle="dropdown" data-delay="100">
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-img"></div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="btnProducts">ДЛЯ детей</a>
+                                        <a href="#" class="arrow-dropdown hidden-lg hidden-md" data-toggle="dropdown" data-delay="100">
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-img"></div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="btnProducts">ДЛЯ ЖЕНЩИН</a>
+                                        <a href="#" class="arrow-dropdown hidden-lg hidden-md" data-toggle="dropdown" data-delay="100">
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-img"></div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="btnProducts">ДЛЯ мужчин</a>
+                                        <a href="#" class="arrow-dropdown hidden-lg hidden-md" data-toggle="dropdown" data-delay="100">
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-img"></div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="btnProducts">ДЛЯ авто</a>
+                                        <a href="#" class="arrow-dropdown hidden-lg hidden-md" data-toggle="dropdown" data-delay="100">
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-list">
+                                                <ul class="list-catalog">
+                                                    <li><a href="#">Ежедневные прокладки</a></li>
+                                                    <li><a href="#">Тампоны</a></li>
+                                                    <li><a href="#">Прокладки</a></li>
+                                                    <li><a href="#">Интимная гигиена</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4 block-img"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!--end Header-->
+                <!--start section.fade-slider-->
+                <section class="fade-slider">
+                    <div class="item" style="background: url(img/slider/slide1.jpg) center no-repeat; background-size: cover;"></div>
+                    <div class="item" style="background: url(img/slider/slide2.jpg) center no-repeat; background-size: cover;"></div>
+                </section>
+                <!--end section.fade-slider-->
+            </div>
+            <!--start section.carousel-product-->
+            <section class="carousel-product">
+                <div class="container">
+                    <div class="block_caption-main">
+                        <h2 class="caption-main">Товары дня</h2>
+                        <span class="sub-caption">Все товары со скидкой так что не упустите шанс приобрести сегодня!</span>
+                    </div>
+                    <ul class="list-products row carousel-products">
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/0425_MFresh_original_front_wlgm-aw.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/0430_MFresh_lemon_front_7ux8-uu.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/92f2c725-607b-414e-99f7-06c075a47dd6.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/ff5c5ac0-66d6-4f03-b509-66e589561c30.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/0425_MFresh_original_front_wlgm-aw.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/0430_MFresh_lemon_front_7ux8-uu.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="textCenter"><a href="#" class="btn-main"><span>Все товары</span></a></div>
+                </div>
+            </section>
+            <!--end section.carousel-product-->
+            <!--start section.carousel-product-->
+            <section class="carousel-product bg-gray">
+                <div class="container">
+                    <div class="block_caption-main">
+                        <h2 class="caption-main">Новинки</h2>
+                        <span class="sub-caption">Общее количество новых товаров в этом месяце <b><em>1200 шт</em></b></span>
+                    </div>
+                    <ul class="list-products row carousel-products">
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/1343e7a552089142f7d1cb58a4c044d2.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/1__1_1.png" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/459ad0be29c7d3aac7c682d5fbc93ced.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/92f2c725-607b-414e-99f7-06c075a47dd6.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/0425_MFresh_original_front_wlgm-aw.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/0430_MFresh_lemon_front_7ux8-uu.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="textCenter"><a href="#" class="btn-main"><span>Все товары</span></a></div>
+                </div>
+            </section>
+            <!--end section.carousel-product-->
+            <!--start section.carousel-product-->
+            <section class="carousel-product">
+                <div class="container">
+                    <div class="block_caption-main">
+                        <h2 class="caption-main">Хиты продаж</h2>
+                        <span class="sub-caption">В этом разделе представлены самые распродаваемые товары этого месяцa</span>
+                    </div>
+                    <ul class="list-products row">
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/ff5c5ac0-66d6-4f03-b509-66e589561c30.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/f968ef537e895a52f18e0a8d512786c8.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/bf7c096463a737cc7456d7526d64e8a0.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/459ad0be29c7d3aac7c682d5fbc93ced.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/27d5b2c0451f8b1bb39c227e58fb0ee9.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/0430_MFresh_lemon_front_7ux8-uu.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/bd6617791ebd3bc079dfd305b53f2c26.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="old-price">190 сом</span><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item col-md-3 col-sm-4 col-xs-6">
+                            <div class="box">
+                                <a href="#" class="img-wrapper"><img src="img/products/b3451af0a19321bff3b4747e4d1293ac.jpg" alt=""></a>
+                                <p class="name"><a href="#">Средство для мытья посуды MORNING FRESH </a></p>
+                                <div class="box-price"><span class="price">155 сом</span></div>
+                                <div class="box-btn">
+                                    <a href="#" class="btn btn-basket" title="Добавить в корзину"><i class="fas fa-shopping-cart"></i><span>В корзину</span></a>
+                                    <a href="#" class="btn btn-favorites" title="Добавить в избранное"><i class="fas fa-heart"></i><span>В избранное</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="textCenter"><a href="#" class="btn-main"><span>Все товары</span></a></div>
+                </div>
+            </section>
+            <!--end section.carousel-product-->
+            <!--start section.subscribe-->
+            <section class="subscribe">
+                <div class="container">
+                    <div class="form-box">
+                        <div class="subscribe__formInfo">
+                            <i class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
+                                    <g>
+                                        <path class="colorIcon" id="WhatsApp" d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522   c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982   c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537   c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938   c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537   c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333   c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882   c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977   c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344   c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223   C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"/>
+                                    </g>
+                                </svg>
+                            </i>
+                            <h5>Не пропусти новинки от Delphin</h5>
+                            <p>подписаться на whatsapp рассылки</p>
+                        </div>
+                        <div class="ubscribe__form">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="tel" placeholder="Ваш телефон">
+                                    <button type="submit" class="btn-order"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--end section.subscribe-->
+            <!--start Footer-->
+            <footer>
+                <div class="container">
+                    <div class="row flexBox">
+                        <div class="col-md-3 block-logo">
+                            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <div class="col-md-3 block-navbar-footer">
+                            <p class="caption">интернет-магазин</p>
+                            <ul class="list-navbar">
+                                <li class="active"><a href="#">О нас</a></li>
+                                <li><a href="#">Доставка и Оплата</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 block-navbar-footer">
+                            <p class="caption">Категории</p>
+                            <ul class="list-navbar">
+                                <li><a href="#">Бытовая химия</a></li>
+                                <li><a href="#">Гигиена</a></li>
+                                <li><a href="#">Для детей</a></li>
+                                <li><a href="#">Для женщин</a></li>
+                                <li><a href="#">Для мужчин</a></li>
+                                <li><a href="#">Для авто</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 block-contacts">
+                            <p class="caption">Контакты</p>
+                            <div class="box-contacts">
+                                <address><i class="fas fa-map-marker-alt"></i>ул. Советская 93</address>
+                            </div>
+                            <div class="box-contacts">
+                                <a href="#" class="phone"><i class="fas fa-phone"></i>+ (996) 550 411 555</a>
+                            </div>
+                            <ul class="list-netWorks">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="subtion">
+                    <div class="container"><p class="sub">© 2018 интернет каталог  Delphin</p></div>
+                </div>
+            </footer>
+            <!--end Footer-->
+        </div>
+        <!--Wrapper end-->
+
+        <!--[if IE 9]>
+            <script>
+                window.location = "oldbrowser/index.html";
+            </script>
+        <![endif]-->
+
+        <script type="text/javascript" src="js/libs.min.js"></script>
+        <script type="text/javascript" src="js/commond.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.list-gallery').each(function() {
+                    $(this).magnificPopup({
+                        delegate: '.image-link',
+                        type: 'image',
+                        gallery: {
+                            enabled:true
+                        },
+                        zoom: {
+                            enabled: true,
+
+                            duration: 600,
+                            easing: 'ease-in-out',
+                            opener: function(openerElement) {
+                                return openerElement.is('img') ? openerElement : openerElement.find('img');
+                            }
+                        }
+                    });
+                });
+            });
+        </script>
+
+    </body>
+</html>
